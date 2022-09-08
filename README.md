@@ -74,9 +74,9 @@ Vue.use(VueThreeSixty)
 
 | Name | Type | Description | Required | Default Value |
 | --- | --- | --- | --- | --- |
-| amount | Number | Number of images | *Yes |
-| imagePath | String | Path to your image | *Yes |
-| fileName | String | File name format | *Yes |
+| amount | Number | Number of images | **Yes |
+| imagePath | String | Path to your image | **Yes |
+| fileName | String | File name format | **Yes |
 | spinReverse | Boolean | Reverse Spin | Optional | false |
 | autoplay | Number | Autoplay your images | Optional | 24 |
 | loop | Number | Number of loops you want to autoplay | Optional | 1 |
@@ -87,7 +87,7 @@ Vue.use(VueThreeSixty)
 | scrollImage | Boolean | Scroll Images instead of Default Zoom | Optional | false |
 | imgUrlList | String Array | List with a URL for each image | Optional | [] |
 
-* They are ignored and not required if the <imgUrlList> property is present on the component.
+** They are ignored and not required if the <imgUrlList> property is present on the component.
 
 ## Buttons 
 
