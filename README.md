@@ -1,4 +1,13 @@
 # vue-360
+
+## IMPORTANT: orginal project in https://github.com/rajeevgade/vue-360.
+
+This project includes modifications that allow you to use an array of urls as the source of the images.
+
+You can visit the original project if this feature is not needed in your project.
+
+This README document is a copy of the original and only the <imgUrlList> property is included.
+
 - A Simple and Beautiful 360&deg; Product Viewer built on Vue.js
 
 ### [Click here for React Version](https://github.com/rajeevgade/react-360)
@@ -65,9 +74,9 @@ Vue.use(VueThreeSixty)
 
 | Name | Type | Description | Required | Default Value |
 | --- | --- | --- | --- | --- |
-| amount | Number | Number of images | Yes |
-| imagePath | String | Path to your image | Yes |
-| fileName | String | File name format | Yes |
+| amount | Number | Number of images | *Yes |
+| imagePath | String | Path to your image | *Yes |
+| fileName | String | File name format | *Yes |
 | spinReverse | Boolean | Reverse Spin | Optional | false |
 | autoplay | Number | Autoplay your images | Optional | 24 |
 | loop | Number | Number of loops you want to autoplay | Optional | 1 |
@@ -76,6 +85,9 @@ Vue.use(VueThreeSixty)
 | paddingIndex | Boolean | Apply Leading Zero to Image Index | Optional | false |
 | disableZoom | Boolean | Disable Zoom Functionality | Optional | false |
 | scrollImage | Boolean | Scroll Images instead of Default Zoom | Optional | false |
+| imgUrlList | String Array | List with a URL for each image | Optional | [] |
+
+* They are ignored and not required if the <imgUrlList> property is present on the component.
 
 ## Buttons 
 
