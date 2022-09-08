@@ -6,7 +6,7 @@ This project includes modifications that allow you to use an array of urls as th
 
 You can visit the original project if this feature is not needed in your project.
 
-This README document is a copy of the original and only the <imgUrlList> property is included.
+This README document is a copy of the original and only the < imgUrlList > property is included.
 
 - A Simple and Beautiful 360&deg; Product Viewer built on Vue.js
 
@@ -87,7 +87,7 @@ Vue.use(VueThreeSixty)
 | scrollImage | Boolean | Scroll Images instead of Default Zoom | Optional | false |
 | imgUrlList | String Array | List with a URL for each image | Optional | [] |
 
-** They are ignored and not required if the <imgUrlList> property is present on the component.
+** They are ignored and not required if the < imgUrlList > property is present on the component.
 
 ## Buttons 
 
